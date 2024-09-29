@@ -1,7 +1,12 @@
-import React from 'react';
+import React from "react";
+import Header from "../../components/ui/Header";
 
 const LoginPage = () => {
-  return <div>LoginPage</div>;
+  return (
+    <div>
+      <Header />
+    </div>
+  );
 };
 
 export default LoginPage;
